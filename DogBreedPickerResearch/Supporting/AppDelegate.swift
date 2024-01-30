@@ -1,9 +1,4 @@
-//
-//  AppDelegate.swift
-//  DogBreedPickerResearch
-//
-//  Created by Peter Sederblad on 2024-01-24.
-//
+import UIKit
 
 import UIKit
 
@@ -33,4 +28,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-

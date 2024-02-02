@@ -1,7 +1,7 @@
 import UIKit
 
 class HomeController: UIViewController {
-    private let breedListAPI = BreedListModel()
+    private let breedListAPI = BreedListManager()
     private var breeds: [String] = []
     private let breedListView = BreedListView()
 

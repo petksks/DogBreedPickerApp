@@ -1,6 +1,6 @@
 import Foundation
 
-class BreedListModel {
+class BreedListManager {
     func fetchBreedList(completion: @escaping ([String]?, Error?) -> Void) {
         guard let url = URL(string: "https://dog.ceo/api/breeds/list/all") else {
             completion(nil, NSError(domain: "InvalidURL", code: 0, userInfo: nil))
@@ -31,7 +31,7 @@ class BreedListModel {
     }
 }
 
-// Helper struct to decode the JSON response
-struct BreedListResponse: Codable {
-    let message: [String: [String]]
-}
+//// Helper struct to decode the JSON response
+//struct BreedListResponse: Codable {
+//    let message: [String: [String]]
+//}

@@ -5,7 +5,7 @@ class ImageCache {
     private init() {}
 }
 
-struct BreedImageModel {
+struct BreedImageManager {
     func fetchImageURLs(forBreed breed: String, completion: @escaping ([String]?, Error?) -> Void) {
         let urlString = "https://dog.ceo/api/breed/\(breed)/images"
         guard let url = URL(string: urlString) else {

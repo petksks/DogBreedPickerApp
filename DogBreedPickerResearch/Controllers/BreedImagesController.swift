@@ -4,7 +4,7 @@ class BreedImagesController: UIViewController {
     
     var breed: String?
     
-    private let breedImageModel = BreedImageModel()
+    private let breedImageModel = BreedImageManager()
     private var images: [UIImage] = []
     private var urls: [String] = []
     private let breedImagesView = BreedImagesView()

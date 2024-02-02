@@ -1,0 +1,1 @@
+An app that lets the user look at at images of dog breeds, like them to save them and also look at the saved images. Will be further developed in a more scalable way and also integrated with a web app. 
